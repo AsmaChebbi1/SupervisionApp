@@ -1,0 +1,33 @@
+/*.navigation{
+    text-align: center;
+    font-size: 19px;
+    font-family: sans-serif;
+ 
+  }
+  li{
+      background-color: gray;
+    display: inline;
+    color: #130e12;
+  }
+ ul li
+{
+ margin:0 10px;  
+}*/
+nav{
+    height: 25px;
+    background: linear-gradient(45deg,rgb(156,14,156),midnightblue);
+  }
+  .liste{
+    list-style-type: none;
+    background: linear-gradient(45deg,rgb(156,14,156),midnightblue);
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  }
+  .items{
+   margin-right: 10px; 
+   color: #f1f1f1;
+  }
+  
+     

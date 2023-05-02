@@ -1,0 +1,49 @@
+.conn {
+    text-align: center;
+    height: 100vh;
+    background-image: url('triangle.png');
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    animation-name:back;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+}
+ 
+  form{
+    width: 600px;
+    background-color:rgba(0, 0, 0, 0.4);
+  padding: 60px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  }
+  input,button{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding:6px 10px;
+    outline: none;
+    border: none;
+    box-sizing:border-box ;
+    border-radius:6px ;
+  }
+  button{
+    background-color: rgb(10, 10, 173);
+  font-weight:bold;
+  cursor: pointer;
+  color: #f1f1f1;
+
+  }
+.abc{
+  color: #f1f1f1;
+}  
+@keyframes back {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+100%{
+  filter:hue-rotate(360deg);
+}
+}
